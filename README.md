@@ -8,6 +8,9 @@ To use this API, you must have:
 - ruby -v 2.7.4
 - rails -v 7.0.4.3
 -Postgress installed on your machine.
+## Deployed Link for the project
+<a href = "https://pizzas-backend-43lz.onrender.com/restraunts">Pizza Restaurants</a>
+
 ### Installation
 To install and use this API, follow these steps:
 1. Clone the repository
