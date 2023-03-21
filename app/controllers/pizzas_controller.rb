@@ -2,7 +2,7 @@ class PizzasController < ApplicationController
 
     def index
       pizzas = Pizza.all
-      render json: pizzas, include: :restraunts
+      render json: pizzas, include: [restraunts:{except: [:created_at,:updated_at]}]
     end
     def show
         pizza = find_pizzas
